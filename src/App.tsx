@@ -1,4 +1,5 @@
 /* eslint-disable */
+// @ts-ignore
 import { ContactUs } from "./component/ContactUs"
 
 function App() {
