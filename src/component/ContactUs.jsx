@@ -32,10 +32,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_t7jaczm", // Replace with your Service ID
-        "template_6l3x6zd", // Replace with your Template ID
+        "service_e13flqt", // Replace with your Service ID
+        "template_iupjely", // Replace with your Template ID
         form.current,
-        "J-TtlT8__IFMRZMDs" // Replace with your Public Key
+        "HU1CIit-xDCNnipwv" // Replace with your Public Key
       )
       .then(
         () => {
@@ -58,7 +58,7 @@ export const ContactUs = () => {
   return (
     <div className="w-[80%] md:w-[50%]  md:max-w-4xl mx-auto sm:mt-4 md:mt-10 p-6 bg-white rounded-lg shadow-md">
       {/* Form Header */}
-      <h1 className="text-2xl font-bold text-center mb-6">Contact Us</h1>
+      <h1 className="text-2xl font-bold text-center mb-6">Contact Us📔</h1>
 
       {/* Form */}
       <form
